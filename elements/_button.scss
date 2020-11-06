@@ -1,1 +1,51 @@
 
+// ----------
+// Buttons
+// ----------
+
+button,
+.button,
+[type=submit] {
+  height: 45px;
+
+  margin-bottom: 0.5rem;
+  padding: 10px 30px;
+
+  outline: none;
+  text-decoration: none;
+
+  color: $link;
+  font-size: 1rem;
+
+  background: transparent;
+
+  border: 1px solid #000000;
+
+  transition: 1s;
+
+  &:hover,
+  &:focus {
+    background: #000000;
+    color: #ffffff;
+  }
+
+  &:active {
+    opacity: .7;
+  }
+
+  &[disabled] {
+    opacity: 0.8;
+    cursor: not-allowed;
+  }
+
+  &.outline {
+    color: $link;
+    background: transparent;
+  }
+
+  &:hover,
+  &:focus {
+      color: $link;
+      background: transparent;
+  }
+}
