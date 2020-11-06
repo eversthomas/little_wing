@@ -1,1 +1,21 @@
 
+// ----------
+// Cards
+// ----------
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  .card-content {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .card-image {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+}
