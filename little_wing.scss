@@ -1,14 +1,14 @@
 
 // base
-import "base/config";
-import "base/base";
-import "base/typo";
+@import 'base/config';
+@import 'base/base';
+@import 'base/typo';
 
 // elements
-import "element/form";
-import "element/link";
-import "element/button";
-import "element/list";
-import "element/card";
-import "element/code";
-import "element/blockquote;
+@import 'element/form';
+@import 'element/link';
+@import 'element/button';
+@import 'element/list';
+@import 'element/card';
+@import 'element/code';
+@import 'element/blockquote';
