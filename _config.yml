@@ -18,4 +18,4 @@ baseurl:             /little-wing/
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:         src
-  style:            :compressed
+  style:            :expanded
