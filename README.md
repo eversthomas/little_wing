@@ -7,3 +7,9 @@ https://github.com/kbrsh/wing
 
 https://github.com/kognise/water.css
 
+todo:
+
+* responsive navigation!
+* Forms not good yet
+* google fonts (local)
+* wordpress sass file (optional)
