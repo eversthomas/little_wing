@@ -11,5 +11,5 @@ todo:
 
 * responsive navigation!
 * Forms not good yet
-* google fonts (local)
+* ~~google fonts (local)~~
 * wordpress sass file (optional)
