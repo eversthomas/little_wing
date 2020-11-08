@@ -3,7 +3,10 @@
 // Typography
 // ----------
 
+@import 'base/fonts';
+
 html {
+  font-family: 'Titillium Web', sans-serif;
   font-size: $base;
 }
 
