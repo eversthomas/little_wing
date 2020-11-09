@@ -29,6 +29,13 @@ blockquote {
     
     span {
       font-size: 80%;
+      display: block;
+      
+      &:before {
+        content: "&gt; ";
+        position: absolute;
+      }
+      
     }
     
   }
