@@ -32,8 +32,8 @@ blockquote {
       display: block;
       
       &:before {
-        content: "&gt; ";
-        position: absolute;
+        content: '\003e';
+        padding-right: 0.5rem;
       }
       
     }
