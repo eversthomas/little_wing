@@ -8,25 +8,4 @@
   margin: 0 auto;
 }
 
- @media screen and (min-width: 768px) {
-  
-   .with-sidebar {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
-     grid-template-rows: 100% 100% 100%;
-     gap: 5px 5px;
-     grid-template-areas:
-       "header header header header"
-       "aside main main main"
-       "footer footer footer footer";
-   }
 
-   .header { grid-area: header; }
-
-   .aside { grid-area: aside; }
-
-   .main { grid-area: main; }
-
-   .footer { grid-area: footer; }
-  
- }
