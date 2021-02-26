@@ -1,17 +1,13 @@
-# Syntax highlighting
-  highlighter:         rouge
-
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-  permalink:           pretty
-  relative_permalinks: false
-
-# Setup
-  title: Jekyll Example
-  tagline: Basic example of a Jekyll site with Sass enabled.
-  url: https://eversthomas.github.io/little-wing/
-  baseurl: /little-wing/
+lsi: false
+safe: true
+source: https://eversthomas.github.io/little-wing/
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # Assets
 #
